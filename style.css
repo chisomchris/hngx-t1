@@ -1,86 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,700&display=swap');
-*{
-	box-sizing: border-box;
-	padding:0;
-	margin: 0;
-	font-family: 'Nunito', sans-serif;
-	font-weight: 400;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
 }
-body{
-	min-height: 100dvh;
+body {
+  min-height: 100dvh;
 }
-img{
-	width: 100%;
-	aspect-ratio: 5/3;
-	object-fit: cover;
-    object-position: 50%  25%;
-    box-shadow: 2px 2px 4px #66666620;
+img {
+  width: 100%;
+  aspect-ratio: 5/3;
+  object-fit: cover;
+  object-position: 50% 25%;
+  box-shadow: 2px 2px 4px #66666620;
 }
-h1{
-	font-style: italic;
-	font-weight:700;
+h1 {
+  font-style: italic;
+  font-weight: 700;
 }
-.container{
-	width: 92%;
-	margin: 0 auto;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	max-width: 600px;
+.container {
+  width: 92%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-width: 600px;
 }
-header .container{
-	display:flex;
-	align-items: center;
-	justify-content: space-between;
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.slack_name{
-	font-size: 3rem;
-	margin-top: 2.25rem;
+.slack_name {
+  font-size: 3rem;
+  margin-top: 2.25rem;
 }
-.my_track{
-	font-size: 2.25rem;
-	margin-top: .5rem;
+.my_track {
+  font-size: 2.25rem;
+  margin-top: 0.5rem;
 }
-main p{
-	font-size: 1.5rem;
-	margin-top: 1.125rem;
+main p {
+  font-size: 1.5rem;
+  margin-top: 1.125rem;
 }
-.github_url{
-	background-color: black;
-	padding: .5rem 3rem;
-	display: inline-block;
-	border-radius: .25rem;
-	color: white;
-	text-decoration: none;
-	margin-top: 2rem;
-	border: solid 2px black;
+.github_url {
+  background-color: black;
+  padding: 0.5rem 3rem;
+  display: inline-block;
+  border-radius: 0.25rem;
+  color: white;
+  text-decoration: none;
+  margin-top: 2rem;
+  border: solid 2px black;
 }
-.github_url:hover{
-	background-color: white;
-	color: black;
+.github_url:hover {
+  background-color: white;
+  color: black;
 }
-main{
-	margin-bottom: 2rem;
+main {
+  margin-bottom: 2rem;
 }
 
-@media screen and (min-width: 992px){
-	p{
-		font-size: 1.5rem;
-		margin-top: 1.125rem;
-	}
-	.container{
-		max-width: 1204px;
-	}
-	main .container{
-		display: flex;
-		gap: 4rem;
-		align-items: center;
-	}
-	.slack_name{
-		margin-top: 0.25rem;
-	}
-	img{
-		border-radius: .5rem;
-		aspect-ratio: 5/6;
-        min-width: 20rem;
-	}
+@media screen and (min-width: 992px) {
+  p {
+    font-size: 1.5rem;
+    margin-top: 1.125rem;
+  }
+  .container {
+    max-width: 1204px;
+  }
+  main .container {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+  }
+  .slack_name {
+    margin-top: 0.25rem;
+  }
+  img {
+    border-radius: 0.5rem;
+    aspect-ratio: 5/6;
+    min-width: 20rem;
+  }
 }
